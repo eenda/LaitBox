@@ -1,5 +1,5 @@
 /**
- * LaitBox - A Custom Lightbox Library for Bootstrap 5
+ * LaitBox - A Custom laitbox Library for Bootstrap 5
  * 
  * @version 1.0.0
  * @license MIT
@@ -33,7 +33,7 @@
  * };
  * 
  * // Attach LaitBox to elements
- * document.querySelectorAll('[data-bs-toggle="lightbox"]').forEach((el) => {
+ * document.querySelectorAll('[data-bs-toggle="laitbox"]').forEach((el) => {
  *     el.addEventListener('click', (e) => {
  *         e.preventDefault();
  *         const laitBox = new LaitBox(el, options);

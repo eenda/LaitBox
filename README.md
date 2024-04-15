@@ -1,5 +1,5 @@
 
-# LaitBox - Lightbox for Bootstrap 5
+# LaitBox - laitbox for Bootstrap 5
 
 LaitBox is a custom implementation of a modal-based lightbox library that enhances the modal functionality of Bootstrap 5. It is designed to load and display dynamic content within modals, offering extensive customization options to fit various requirements.
 
@@ -34,7 +34,7 @@ Here is a simple example to demonstrate how to initialize and use LaitBox on ele
 ### HTML
 
 ```html
-<a href="url_to_load_content.html" data-bs-toggle="lightbox" data-bs-target="#exampleModal">Open Lightbox</a>
+<a href="url_to_load_content.html" data-bs-toggle="laitbox" data-bs-target="#exampleModal">Open LaitBox</a>
 ```
 
 ### JavaScript
@@ -53,7 +53,7 @@ const options = {
 };
 
 // Attach LaitBox to elements
-document.querySelectorAll('[data-bs-toggle="lightbox"]').forEach((el) => {
+document.querySelectorAll('[data-bs-toggle="laitbox"]').forEach((el) => {
     el.addEventListener('click', (e) => {
         e.preventDefault();
         const laitBox = new LaitBox(el, options);
