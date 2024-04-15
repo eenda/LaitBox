@@ -1,5 +1,5 @@
 
-# LaitBox - laitbox for Bootstrap 5
+# LaitBox - lightbox for Bootstrap 5
 
 LaitBox is a custom implementation of a modal-based lightbox library that enhances the modal functionality of Bootstrap 5. It is designed to load and display dynamic content within modals, offering extensive customization options to fit various requirements.
 
