@@ -77,7 +77,7 @@ class LaitBox {
 
     initModal() {
         const targetId = this.triggerElement.getAttribute('data-bs-target') || this.randomId();
-        const url = this.triggerElement.getAttribute('href');
+        const url = this.triggerElement.href || this.triggerElement.src;
 
         let modal = document.getElementById(targetId);
         if (!modal) {
